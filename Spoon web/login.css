@@ -1,0 +1,66 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #EFF1F8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+ width: 280px;
+ border: 2px transparent;
+ box-shadow: 10px 10px 15px rgb(193, 182, 182),-10px -10px 15px white;
+border- height: 480px;
+radius: 20px;
+ display: flex;
+ flex-direction: column ;
+ text-align: center;
+}
+.container .heading{
+    margin: 60px 0 30px 0;
+}
+.container .heading h2{
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+.container .name input, .container .password input{
+    outline: none;
+    border-style: none;
+    background: #0E22B8;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    width: 220px;
+    color: #fff;
+    transition: 0.6s all;
+}
+.container .name input::placeholder, .container .password input::placeholder{
+    color: #fff;
+    font-size: 1.1em;
+}
+.container .name input:focus, .container .password input:focus{
+    transform: scale(1.1);
+}
+.container .btn{
+    margin: 10px 0;
+}
+.container .btn a{
+    color: #0E22B8;
+    text-decoration: none;
+    padding: 10px 10px;
+    box-shadow: 3px 3px 8px rgb(193, 182, 182),-3px -3px 5px white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s all;
+
+}
+.container .btn a:hover{
+    background: #E80000;
+    color: #fff;
+
+}
